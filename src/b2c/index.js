@@ -1,7 +1,14 @@
 let exc = false;
 
 document.querySelectorAll(".cta-button-simular").forEach((item) => {
-  item.addEventListener("click", () => {
+  item.addEventListener("click", async () => {
+    console.log("iniciou execução");
+    console.log("1s antes");
+    await new Promise((resolve) => {
+      setTimeout(resolve, 500);
+    });
+    console.log("1s depois");
+
     if (exc) {
       console.log("não precisei");
       return;
@@ -57,9 +64,10 @@ document.querySelectorAll(".cta-button-simular").forEach((item) => {
       ></iframe>
     </div>
     `;
+
     document.querySelector("#iframe-modal iframe").remove();
 
-    const wrapper = document.querySelector(".bg-white.shadow-xl.w-full.pt-8");
+    const wrapper = document.querySelector(".shadow-xl.w-full");
     wrapper.classList.remove("bg-white");
     wrapper.classList.add("bg-[#f1f4f4]");
 
@@ -76,13 +84,8 @@ document.querySelectorAll(".cta-button-simular").forEach((item) => {
       const moradia_step = document.getElementById("moradia-step");
       moradia_step.setAttribute("data-status", "open");
     });
+
+    console.log("finalizou");
     exc = true;
   });
 });
-
-const closeModalIframe = () => {
-  const modal = document.getElementById("iframe-modal");
-  const moradia_step = document.getElementById("moradia-step");
-  moradia_step.setAttribute("data-status", "close");
-  modal.classList.add("hidden");
-};
