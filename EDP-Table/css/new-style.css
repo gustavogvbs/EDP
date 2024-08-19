@@ -1,6 +1,6 @@
 @font-face {
   font-family: "edp-brand-icons";
-  src: url("/font/edp-brand-icons.ttf") format("truetype");
+  src: url("/media/gzhlnq2s/edp-brand-icons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "edp-brand-optimized-icons";
-  src: url("/font/edp-brand-optimized-icons.ttf") format("truetype");
+  src: url("/media/leaiwplk/edp-brand-optimized-icons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "edp-base-icons";
-  src: url("/font/edp-base-icons.ttf") format("truetype");
+  src: url("/media/snshbge5/edp-base-icons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "edp-social-icons";
-  src: url("/font/edp-social-icons.ttf") format("truetype");
+  src: url("/media/mxxlmnv0/edp-social-icons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -33,7 +33,6 @@
 [class^="icon-bop-"],
 [class*=" icon-bop-"] {
   font-family: "edp-brand-optimized-icons" !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

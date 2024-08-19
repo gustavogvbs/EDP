@@ -320,10 +320,20 @@
   background-color: transparent;
 }
 
+.pricing21_top-row {
+  top: 81px;
+}
+
 @media screen and (max-width: 1080px) {
   .heading-style-title {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .pricing21_row-content-footer {
+    padding: 0.5rem;
   }
 }
 
@@ -341,8 +351,39 @@
     padding: 12px 12px;
     font-size: 12px;
   }
+
+  .pricing21_top-row {
+    top: 63px;
+  }
 }
 
 .pricing21_row-content .icon-bop-072 {
   font-size: 44px;
+}
+
+.heading-style-title.premium-head,
+.heading-style-title.smart-head,
+.heading-style-title.ceme-head {
+  padding: 0 !important;
+  border: none !important;
+}
+
+.section3 .premium-head:before {
+  display: none !important;
+}
+
+body {
+  overflow: unset !important;
+}
+
+.purple-color {
+  color: #6d32ff !important;
+}
+
+.purple-dark-color {
+  color: #263cc8 !important;
+}
+
+.green-color {
+  color: #225e66 !important;
 }
