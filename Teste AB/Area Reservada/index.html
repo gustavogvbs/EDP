@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.small-icon__test {
+				font-size: 90px !important;
+				color: #225e66 !important;
+				width: 90px;
+				height: 90px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding-top: 28px;
+			}
+
+			.container-banner__test {
+				display: grid;
+				grid-template-columns: 148px max-content;
+				background-color: #fff;
+				border-radius: 8px;
+				margin-right: 1rem;
+				-ms-flex-positive: 1;
+				position: relative;
+				min-height: 133px;
+				height: 133px;
+				overflow: hidden;
+				width: 100%;
+				min-width: max-content;
+			}
+
+			.wrapper-icone__test {
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #212e3e;
+			}
+
+			.circle-promotion {
+				background-color: #225e66;
+				color: #fff;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100px;
+				height: 100px;
+				border-radius: 72px;
+				position: absolute;
+				right: 0;
+				transform: translateX(40%);
+			}
+			.circle-promotion p {
+				font-size: 0.75rem;
+				margin-bottom: 8px;
+			}
+			.circle-promotion h4 {
+				font-size: 2.5rem;
+				font-weight: bold;
+			}
+			.circle-promotion h4 span {
+				font-size: 0.85rem;
+			}
+
+			.text-new__test {
+				color: #28ff52;
+				position: absolute;
+				top: 10px;
+				left: 10px;
+			}
+
+			.wrapper-text__test {
+				padding: 14px;
+				padding-left: 72px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.title-wrapper__test {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.title-wrapper__test h3 {
+				font-size: 1.5rem;
+				color: #225e66;
+				font-weight: 500;
+				margin: 0px;
+			}
+
+			.title-wrapper__test p {
+				font-size: 1rem;
+				margin: 0px;
+			}
+
+			.wrapper-button {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 8px;
+				align-items: center;
+			}
+			.wrapper-button p {
+				color: #225e66;
+				font-weight: bold;
+			}
+
+			.cta-button__test {
+				display: inline-block;
+				font-weight: 400;
+				line-height: 1.5;
+				text-align: center;
+				text-decoration: none;
+				white-space: "nowrap";
+				vertical-align: middle;
+				cursor: pointer;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				user-select: none;
+				padding: 0.6rem 1.5rem;
+				font-size: 0.85rem;
+				border-radius: 0;
+				transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+					border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+				color: #222;
+				background-color: #28ff52;
+				border-color: #28ff52;
+				border-style: solid;
+			}
+			.cta-button__test:hover {
+				text-decoration: none;
+				box-shadow: inset 0 0 100px 100px #7eff97;
+				cursor: pointer;
+				background-color: #48ff6c;
+				border-color: #3eff63;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width: 630px">
+			<div class="container-banner__test">
+				<div class="wrapper-icone__test">
+					<p class="text-new__test">Novo</p>
+					<div class="circle-promotion">
+						<p>poupe até</p>
+						<h4>25<span>%</span></h4>
+					</div>
+					<div>Logo</div>
+				</div>
+				<div class="wrapper-text__test">
+					<div class="title-wrapper__test">
+						<h3>Parabéns sua empresa está elegivel</h3>
+						<p>para o programa de Energia Solar EDP</p>
+					</div>
+					<div class="wrapper-button">
+						<p>Sem ivestimento inicial</p>
+
+						<button class="cta-button__test">Pedir Contato</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

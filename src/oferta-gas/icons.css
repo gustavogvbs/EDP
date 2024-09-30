@@ -1,0 +1,100 @@
+@font-face {
+	font-family: "edp-brand-icons";
+	src: url("/media/oj2co0gz/edp-brand-icons.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "edp-brand-optimized-icons";
+	src: url("/media/pkeb2h3u/edp-brand-optimized-icons.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "edp-base-icons";
+	src: url("/media/jm4j33go/edp-base-icons.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "edp-social-icons";
+	src: url("/media/2ezhsbjh/edp-social-icons.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+[class^="icon-bop-"],
+[class*=" icon-bop-"] {
+	font-family: "edp-brand-optimized-icons" !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bop-001:after {
+	content: "";
+}
+
+.icon-bop-009:after {
+	content: "";
+}
+
+.icon-bop-001:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgba(0, 0, 0, 0);
+}
+
+.icon-bop-009:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgba(0, 0, 0, 0);
+}
+
+[class^="icon-bra-"],
+[class*=" icon-bra-"] {
+	font-family: "edp-brand-icons" !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bra-094:before {
+	content: "";
+}
+
+.icon-bra-042:before {
+	content: "";
+}
+
+.icon-bra-016:before {
+	content: "";
+}
+
+.add-02-c {
+	color: #263cc8 !important;
+}
+
+.add-01-c {
+	color: #6d32ff !important;
+}
