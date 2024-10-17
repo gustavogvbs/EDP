@@ -1,0 +1,1116 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDP Energia Solar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5CK4PBB");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./index.js" defer></script>
+
+    <!-- <link rel="stylesheet" href="./css/output.css" /> -->
+    <link rel="stylesheet" href="https://d01-www.edp.pt/media/mqdjixfc/output.css" />
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5CK4PBB"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div>
+      <header class="relative">
+        <div class="w-full bg-[#E6EBEC] px-[5%] absolute top-0 z-30">
+          <div class="m-auto max-w-4xl">
+            <div class="h-8 w-auto flex items-center">
+              <span
+                class="text-xs font-semibold bg-white h-8 flex items-center px-3 gap-2 text-edp-black"
+              >
+                <a
+                  class="text-edp-black font-bold hover:opacity-70 transition-opacity duration-200 cursor-pointer"
+                  >Empresas >
+                </a>
+                <a
+                  class="text-edp-grey hover:opacity-70 transition-opacity duration-200 cursor-pointer"
+                  >Energia >
+                </a>
+                <a
+                  class="text-edp-grey hover:opacity-70 transition-opacity duration-200 cursor-pointer"
+                  >Eletricidade</a
+                >
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="absolute z-10 w-full h-full">
+          <img
+            class="w-full object-cover h-full object-right-top max-sm:object-left-top"
+            src="https://d01-www.edp.pt/media/uwjg1va2/bg-header.png"
+            alt="header background"
+          />
+          <img
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 max-md:left-1/3 max-md:w-64 max-sm:left-12"
+            src="https://d01-www.edp.pt/media/0g1j0mbf/men.png"
+            alt="homen"
+          />
+        </div>
+        <div class="py-14 px-[5%] max-md:py-20">
+          <div
+            class="grid grid-cols-[1fr_max-content] max-w-4xl m-auto relative z-20 max-md:grid-cols-1 max-md:gap-7"
+          >
+            <div class="max-w-sm">
+              <img
+                class="-left-9 relative"
+                src="https://d01-www.edp.pt/media/xhuh4pwn/edp_footer.png"
+                alt=""
+              />
+              <div class="pt-11">
+                <h1 class="text-5xl leading-none text-edp-blue-stone max-sm:text-4xl">
+                  Valorizamos os nossos clientes
+                </h1>
+                <p class="text-base text-edp-blue-stone mt-3 font-bold">
+                  Por isso, o seu regresso é a nossa prioridade.
+                </p>
+              </div>
+            </div>
+            <div class="max-md:flex justify-end">
+              <div
+                class="size-[300px] rounded-full bg-edp-blue-stone text-white text-center flex flex-col justify-center items-center gap-2 px-12 max-md:px-8 max-md:gap-1 max-lg:gap-1 max-lg:size-[228px] max-md:size-[200px]"
+              >
+                <p class="text-2xl max-lg:text-lg max-md:text-base">Desconto de</p>
+                <p class="text-8xl max-lg:text-6xl max-md:text-6xl">37%</p>
+                <p class="text-2xl max-lg:text-lg max-md:text-base">na componente de energia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="py-14 px-[5%]">
+        <div
+          class="grid grid-cols-[1fr_340px] max-w-4xl m-auto relative z-20 max-md:flex max-md:flex-col max-md:gap-8"
+        >
+          <div class="max-w-md pr-4 text-edp-dark-blue">
+            <h2 class="text-xl text-balance">
+              Conheça a nossa <strong>oferta</strong> mais competitiva e por
+              <strong>tempo limitado</strong>
+            </h2>
+            <p class="text-base mt-7 mb-9">
+              Estamos a trabalhar continuamente para melhorar os nossos serviços de forma a atender
+              às suas necessidades.
+            </p>
+            <button class="button-edp-green" onclick="bysideWebcare_triggerevent( 15486 )">
+              Pedir proposta
+            </button>
+          </div>
+          <div>
+            <div class="max-w-sm">
+              <div class="flex gap-4 items-center pl-4">
+                <h3 class="text-xl font-bold">Resumo da Oferta</h3>
+                <span>
+                  <img src="https://d01-www.edp.pt/media/tstpo5yl/presente.png" alt="" />
+                </span>
+              </div>
+              <div class="divider my-4"></div>
+              <p class="text-edp-purple font-bold text-sm pl-4" id="name-company">
+                Para a sua empresa
+              </p>
+              <div class="divider my-4"></div>
+              <div class="flex flex-col text-xs font-bold pl-4">
+                <p>Oferta Exlusiva</p>
+                <p><span class="text-edp-purple">37%</span> De Desconto na componente de energia</p>
+              </div>
+              <div class="divider my-4"></div>
+              <p class="text-xs font-bold pl-4">
+                OFERTA POR <span class="text-edp-purple">TEMPO LIMITADO</span>
+              </p>
+              <div class="divider my-4"></div>
+              <p class="text-balance text-[13px] pl-4">
+                Solicite agora um contato gratuito e saiba mais Sobre esta oferta é exclusiva para
+                antigos clientes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="section-1 max-s:px-6 bg-edp-light-gray pt-12 pb-12 bg-[#F1F4F4]">
+        <div class="px-[5%] flex text-center justify-center flex-col">
+          <div class="m-auto w-full flex justify-center text-edp-blue-stone">
+            <button id="notas-legais" type="button" class="button-notas-legais" data-nota="open">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-up"
+                >
+                  <path d="m18 15-6-6-6 6"></path>
+                </svg>
+              </div>
+
+              <h4 class="text-edp-blue-stone text-xl font-bold">Notas legais</h4>
+            </button>
+          </div>
+          <div id="wrapper-notas-legais" class="overflow-hidden transition-all duration-500">
+            <div class="wrapper">
+              <p class="max-w-[948px] m-auto text-lg pt-4">
+                (1) Desconto de 17% durante 12 meses com o acréscimo de 3% de desconto ao aderir à
+                fatura eletrónica e débito direto. O desconto é aplicado sobre o preço tabela da EDP
+                que pode ser
+                <button
+                  type="button"
+                  id="open-modal"
+                  class="text-edp-blue-stone underline cursor-pointer"
+                >
+                  consultado aqui.
+                </button>
+              </p>
+              <p>Oferta aplicável a eletricidade com limite de potencia >= 20,7 kVA</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="py-24 text-center bg-edp-dark-blue flex flex-col justify-center gap-6 content-center px-[5%] max-s:px-6 text-edp-grey"
+    >
+      <img
+        class="m-auto"
+        src="https://d01-www.edp.pt/media/dvtfggwt/edp_footer.png"
+        alt="EDP Logo"
+        width="180"
+        height="auto"
+      />
+
+      <p class="text-edp-grey">
+        Consulte a nossa
+        <u><a href="https://www.edp.pt/politica-de-privacidade">Política de Privacidade</a></u>
+        e a nossa
+        <u><a href="https://www.edp.pt/politica-de-cookies">Política de Cookies</a></u>
+      </p>
+      <p class="text-sm">© Copyright 2024 - EDP Comercial. Todos os direitos reservados</p>
+    </footer>
+
+    <div
+      id="table-modal"
+      class="fixed top-0 left-0 right-0 bottom-0 bg-transparent backdrop-blur-sm z-50 flex justify-center items-center data-[status=active]:bg-stone-800/30 data-[status=active]:translate-y-0 translate-y-full transition-all duration-700"
+      data-status="disable"
+    >
+      <div
+        id="modal-content"
+        class="grid grid-rows-[max-content_1fr] w-[95%] sm:w-[90%] max-h-[95vh] max-w-4xl bg-white rounded-md overflow-hidden transition-all duration-1000 translate-y-1/2 data-[status=active]:translate-y-0"
+        data-status="disable"
+      >
+        <div class="bg-edp-midnight pb-2">
+          <div class="bg-white px-1 py-2 relative">
+            <h3 class="text-center font-bold text-edp-blue-stone text-base md:text-xl">
+              Preço base carteira Jun24
+            </h3>
+            <button
+              id="close-modal"
+              type="button"
+              class="absolute top-2 right-2 text-edp-blue-stone"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-x"
+              >
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="grid grid-cols-2 bg-white">
+            <button
+              id="button-no-discount"
+              type="button"
+              data-status="active"
+              class="bg-white text-edp-black font-bold text-sm md:text-lg p-3 rounded-t-md shadow-md data-[status=active]:bg-edp-midnight data-[status=active]:text-white transition-all duration-300"
+            >
+              Sem desconto
+            </button>
+            <button
+              id="button-discount"
+              type="button"
+              class="bg-white text-edp-black font-bold text-sm md:text-lg p-3 rounded-t-md shadow-md data-[status=active]:bg-edp-midnight data-[status=active]:text-white transition-colors duration-300"
+              data-status="disable"
+            >
+              Com desconto
+            </button>
+          </div>
+        </div>
+        <div class="overflow-y-scroll">
+          <div id="table-no-discount" data-status="active" class="hidden data-[status=active]:flex">
+            <div class="w-[20%]">
+              <table
+                cellpadding="4"
+                cellspacing="0"
+                width="100%"
+                class="table-fixed font-bold bg-edp-blue-stone text-edp-green text-[8px] md:text-sm"
+              >
+                <thead class="bg-edp-midnight">
+                  <tr>
+                    <td align="center"><br /></td>
+                    <td align="center"><br /></td>
+                  </tr>
+                  <tr>
+                    <td align="center"><br /></td>
+                    <td align="center"><br /></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">1,15</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">2,3</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">3,45</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">4,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">5,75</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">6,9</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">10,35</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">13,8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">17,25</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">20,7</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">3,45</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">4,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">5,75</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">6,9</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">10,35</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">13,8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">17,25</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">20,7</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">3,45</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">4,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">5,75</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">6,9</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">10,35</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">13,8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">17,25</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">20,7</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">27,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">34,5</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">41,4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="w-[80%]">
+              <table
+                cellpadding="4"
+                cellspacing="0"
+                width="100%"
+                class="table-fixed font-bold bg-edp-light-gray text-[8px] md:text-sm"
+              >
+                <thead class="bg-edp-midnight text-white font-bold">
+                  <tr>
+                    <td align="center">Port.</td>
+                    <td align="center">P</td>
+                    <td align="center">C</td>
+                    <td align="center">V</td>
+                    <td align="center">FV</td>
+                    <td align="center">S</td>
+                  </tr>
+                  <tr>
+                    <td align="center">€/dia</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td align="center">0,1479</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2294</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,2259</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2311</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,2863</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2323</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3611</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2324</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,4442</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2325</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5175</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2323</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,7456</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2323</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,9908</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2323</td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,2125</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2329</td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,4531</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,2328</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3438</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1711</td>
+                    <td align="center">0,2632</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,4351</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1712</td>
+                    <td align="center">0,2633</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5136</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1712</td>
+                    <td align="center">0,2633</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5941</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1712</td>
+                    <td align="center">0,2632</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,8154</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1712</td>
+                    <td align="center">0,2632</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1.0543</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1705</td>
+                    <td align="center">0,2629</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,2814</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1712</td>
+                    <td align="center">0,2631</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,5427</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1712</td>
+                    <td align="center">0,2631</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3135</td>
+                    <td align="center">0,4519</td>
+                    <td align="center">0,2131</td>
+                    <td align="center">0,1712</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3869</td>
+                    <td align="center">0,4523</td>
+                    <td align="center">0,2133</td>
+                    <td align="center">0,1713</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,4554</td>
+                    <td align="center">0,4524</td>
+                    <td align="center">0,2133</td>
+                    <td align="center">0,1714</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5446</td>
+                    <td align="center">0,4519</td>
+                    <td align="center">0,2131</td>
+                    <td align="center">0,1712</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,7486</td>
+                    <td align="center">0,4518</td>
+                    <td align="center">0,2131</td>
+                    <td align="center">0,1712</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,9772</td>
+                    <td align="center">0,4528</td>
+                    <td align="center">0,2128</td>
+                    <td align="center">0,1711</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,1873</td>
+                    <td align="center">0,4531</td>
+                    <td align="center">0,213</td>
+                    <td align="center">0,1712</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,4241</td>
+                    <td align="center">0,453</td>
+                    <td align="center">0,213</td>
+                    <td align="center">0,1712</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,8695</td>
+                    <td align="center">0,4447</td>
+                    <td align="center">0,2217</td>
+                    <td align="center">0,1689</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">2,3307</td>
+                    <td align="center">0,4447</td>
+                    <td align="center">0,2217</td>
+                    <td align="center">0,1689</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">2,8025</td>
+                    <td align="center">0,4446</td>
+                    <td align="center">0,2217</td>
+                    <td align="center">0,1689</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div id="table-discount" data-status="disable" class="hidden data-[status=active]:flex">
+            <div class="w-[20%]">
+              <table
+                cellpadding="4"
+                cellspacing="0"
+                width="100%"
+                class="table-fixed font-bold bg-edp-blue-stone text-edp-green text-[8px] md:text-sm"
+              >
+                <thead class="bg-edp-midnight">
+                  <tr>
+                    <td align="center"><br /></td>
+                    <td align="center"><br /></td>
+                  </tr>
+                  <tr>
+                    <td align="center"><br /></td>
+                    <td align="center"><br /></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">1,15</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">2,3</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">3,45</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">4,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">5,75</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">6,9</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">10,35</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">13,8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">17,25</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Simples</td>
+                    <td align="center">20,7</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">3,45</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">4,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">5,75</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">6,9</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">10,35</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">13,8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">17,25</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Bi-H</td>
+                    <td align="center">20,7</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">3,45</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">4,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">5,75</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">6,9</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">10,35</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">13,8</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">17,25</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">20,7</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">27,6</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">34,5</td>
+                  </tr>
+                  <tr>
+                    <td align="center">Tri-H</td>
+                    <td align="center">41,4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="w-[80%]">
+              <table
+                cellpadding="4"
+                cellspacing="0"
+                width="100%"
+                class="table-fixed font-bold bg-edp-light-gray text-[8px] md:text-sm"
+              >
+                <thead class="bg-edp-midnight text-white font-bold">
+                  <tr>
+                    <td align="center">Port.</td>
+                    <td align="center">P</td>
+                    <td align="center">C</td>
+                    <td align="center">V</td>
+                    <td align="center">FV</td>
+                    <td align="center">S</td>
+                  </tr>
+                  <tr>
+                    <td align="center">€/dia</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                    <td align="center">€/kWh</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="center">0,1479</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1445</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,2259</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1456</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,2863</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1464</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3611</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1464</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,4442</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1464</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5175</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1464</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,7456</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1464</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,9908</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1464</td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,2125</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1467</td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,4531</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1476</td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3458</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1078</td>
+                    <td align="center">0,1658</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,4351</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1078</td>
+                    <td align="center">0,1659</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5136</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1078</td>
+                    <td align="center">0,1659</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5941</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1078</td>
+                    <td align="center">0,1658</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,8154</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1078</td>
+                    <td align="center">0,1658</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,0543</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1074</td>
+                    <td align="center">0,1656</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,2814</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1078</td>
+                    <td align="center">0,1657</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,5427</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center">0,1078</td>
+                    <td align="center">0,1657</td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3155</td>
+                    <td align="center">0,2847</td>
+                    <td align="center">0,1343</td>
+                    <td align="center">0,1078</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,3869</td>
+                    <td align="center">0,2849</td>
+                    <td align="center">0,1344</td>
+                    <td align="center">0,1079</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,4554</td>
+                    <td align="center">0,285</td>
+                    <td align="center">0,1344</td>
+                    <td align="center">0,108</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,5446</td>
+                    <td align="center">0,2847</td>
+                    <td align="center">0,1343</td>
+                    <td align="center">0,1078</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,7486</td>
+                    <td align="center">0,2846</td>
+                    <td align="center">0,1343</td>
+                    <td align="center">0,1078</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">0,9772</td>
+                    <td align="center">0,2852</td>
+                    <td align="center">0,1341</td>
+                    <td align="center">0,1078</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,1873</td>
+                    <td align="center">0,2855</td>
+                    <td align="center">0,1342</td>
+                    <td align="center">0,1079</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,4241</td>
+                    <td align="center">0,2854</td>
+                    <td align="center">0,1342</td>
+                    <td align="center">0,1079</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">1,8695</td>
+                    <td align="center">0,2802</td>
+                    <td align="center">0,1397</td>
+                    <td align="center">0,1064</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">2,3307</td>
+                    <td align="center">0,2802</td>
+                    <td align="center">0,1397</td>
+                    <td align="center">0,1064</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                  <tr>
+                    <td align="center">2,8025</td>
+                    <td align="center">0,2801</td>
+                    <td align="center">0,1397</td>
+                    <td align="center">0,1064</td>
+                    <td align="center" class="bg-white"></td>
+                    <td align="center" class="bg-white"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://d01-www.edp.pt/media/lkbjr2nl/modal.js"></script>
+    <script src="https://d01-www.edp.pt/media/aesfwt4i/b2b_script.js"></script>
+    <script src="https://d01-www.edp.pt/media/cqzdsw13/index.js"></script>
+
+    <script>
+      (function () {
+        const url_string = window.location.href;
+        const url = new URL(url_string);
+        const data = url.searchParams.get("Nome_Empresa");
+
+        console.log(data, url);
+
+        if (data && data !== "") {
+          document.getElementById("name-company").innerText = data;
+        } else {
+          document.getElementById("name-company").innerText = "Para a sua empresa";
+        }
+      })();
+    </script>
+  </body>
+</html>
+

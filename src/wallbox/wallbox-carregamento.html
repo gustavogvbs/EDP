@@ -132,16 +132,7 @@
 
 		<link rel="stylesheet" type="text/css" href="/media/0ildqyf1/styles.css" />
 
-		<link rel="stylesheet" href="./output.css" />
-
-		<!--<meta name="description" content="YYY" />
-    <meta property="og:site_name" content="ZZZ" />
-    <meta property="og:title" content="XXX" />
-    <meta property="og:description" content="YYY" />
-    <meta property="og:url" content="https://XXX">
-    <meta property="og:image" content="https://XXX/images/share.png" />-->
-
-		<link rel="stylesheet" href="/media/fg3pb0d4/output.css" />
+		<link rel="stylesheet" href="/media/w02jo3d0/output.css" />
 	</head>
 
 	<body>
@@ -172,10 +163,10 @@
 		<!------ START HEADER ------>
 		<header
 			id="header"
-			class="bg-white sticky z-[999] top-0 overflow-y-visible"
+			class="bg-white sticky z-[999] top-0 overflow-y-visible py-2"
 		>
 			<div
-				class="max-w-[1440px] px-[21px] md:px-[58px] mx-auto h-24 flex justify-between"
+				class="max-w-[1440px] px-[21px] md:px-[58px] mx-auto flex justify-between"
 			>
 				<div class="flex static md:inset-y-0 md:left-0">
 					<div class="flex flex-shrink-0 items-center gap-1">
@@ -354,7 +345,7 @@
 					<button
 						type="button"
 						id="header-cta-1"
-						class="button-edp-green cta-button-ligueme ligue-me-btn"
+						class="button-edp-green cta-button-ligueme"
 						onclick="bysideWebcare_triggerevent( 15672 )"
 					>
 						Liguem-me
@@ -373,8 +364,10 @@
 		<!------ START BANNER ------>
 
 		<section class="section-1 overflow-hidden">
-			<div class="">
-				<div class="relative min-h-[464px]">
+			<div
+				class="md:grid md:grid-rows-[max-content_1fr] min-h-[calc(100vh-80px)]"
+			>
+				<div class="relative min-h-[40vh] md:min-h-[50vh]">
 					<div
 						id="background-header"
 						class="absolute w-full h-full top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 overflow-hidden bg-linear-gradient"
@@ -385,9 +378,9 @@
 							alt=""
 						/>
 					</div>
-					<div class="px-[21px] min-h-[464px] relative m-auto">
+					<div class="mx-[21px] min-h-[40vh] h-full relative">
 						<div
-							class="max-w-[1440px] z-30 md:px-[58px] mx-auto px-[21px] sm:w-full absolute bottom-0 translate-y-1/2 md:relative md:translate-y-1/2"
+							class="max-w-[1440px] z-30 md:px-[58px] mx-auto px-[21px] w-full absolute bottom-0 md:bottom-1/2 translate-y-1/2 lg:left-1/2 lg:-translate-x-1/2"
 						>
 							<div class="max-w-sm relative w-full">
 								<div class="bg-edp-purple px-7 py-8 text-white relative">
@@ -421,18 +414,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="section-row-2 bg-edp-dark-blue px-[21px] md:mx-auto">
+				<div class="section-row-2 bg-edp-dark-blue px-[21px] md:mx-auto w-full">
 					<div
-						class="max-w-[1440px] px-[21px] md:px-[58px] mx-auto flex flex-col lg:grid lg:grid-cols-2 md:gap-x-20 py-16 grid-cols-[48%_52%] relative pt-40 md:pt-16"
+						class="max-w-[1440px] px-[21px] md:px-[58px] mx-auto flex flex-col lg:grid lg:grid-cols-2 md:gap-x-10 py-16 grid-cols-[48%_52%] relative pt-40 md:pt-20 h-full"
 					>
 						<div class="column-left">
-							<h2
-								class="text-white max-md:max-w-[50%] text-base xl:text-xl font-bold mb-[8px]"
-							>
+							<h2 class="text-white text-base xl:text-xl font-bold mb-[8px]">
 								Carregadores para carros elétricos
 							</h2>
 							<h1
-								class="text-white text-2xl sm:text-4xl font-normal lg:font-bold xl:text-5xl xl:leading-[56px_!important]"
+								class="text-white text-2xl sm:text-4xl font-normal lg:font-bold lg:text-3xl xl:text-[2.5rem] xl:leading-[54px_!important]"
 							>
 								Desconto em carregadores <br />
 								+ Cartão EDP Charge com <br />
@@ -443,9 +434,7 @@
 							class="column-right flex justify-end max-lg:justify-start w-full max-lg:mt-8"
 						>
 							<div class="w-full max-w-[480px]">
-								<h2
-									class="text-white max-md:max-w-[50%] text-base lg:text-xl mb-[8px]"
-								>
+								<h2 class="text-white text-base lg:text-xl mb-[8px]">
 									Descubra as soluções de carregamento mais seguras para o
 									carregar o seu carro elétrico em casa, desde 25€ /mês
 								</h2>
@@ -455,7 +444,7 @@
 										type="button"
 										id="hero-cta-1"
 										onclick="bysideWebcare_triggerevent( 15672 )"
-										class="button-edp-green ligue-me-btn"
+										class="button-edp-green cta-button-ligueme"
 									>
 										Liguem-me
 									</button>
@@ -500,7 +489,7 @@
 							<div class="block-content-buttons">
 								<button
 									id="saber-mais-carregamento"
-									class="button mx-auto ml-md-0 ligue-me-btn"
+									class="button mx-auto ml-md-0 cta-button-ligueme"
 									onclick="bysideWebcare_triggerevent( 15672 )"
 								>
 									<span>Falar com especialista</span>
@@ -729,7 +718,7 @@
 					<button
 						id="liguem-me-vantangens"
 						onclick="bysideWebcare_triggerevent( 15672 )"
-						class="button m1-Alt-bt mx-auto ligue-me-btn"
+						class="button m1-Alt-bt mx-auto cta-button-ligueme"
 					>
 						<span>Liguem-me</span>
 					</button>
@@ -824,7 +813,6 @@
 							<div class="btn-container">
 								<button
 									id="light-charger"
-									class="ligue-me-btn"
 									onclick="bysideWebcare_triggerevent( 15672 )"
 								>
 									<p>Falar com especialista</p>
@@ -909,7 +897,6 @@
 							<div class="btn-container">
 								<button
 									id="standard-charger"
-									class="ligue-me-btn"
 									onclick="bysideWebcare_triggerevent( 15672 )"
 								>
 									<p>Falar com especialista</p>
@@ -994,7 +981,6 @@
 							<div class="btn-container">
 								<button
 									id="standard-charger"
-									class="ligue-me-btn"
 									onclick="bysideWebcare_triggerevent( 15672 )"
 								>
 									<p>Falar com especialista</p>
@@ -1095,7 +1081,6 @@
 							<div class="btn-container">
 								<button
 									id="premium-charger"
-									class="ligue-me-btn"
 									onclick="bysideWebcare_triggerevent( 15672 )"
 								>
 									<p>Falar com especialista</p>
@@ -1178,7 +1163,6 @@
 							<div class="btn-container">
 								<button
 									id="plug-in"
-									class="ligue-me-btn"
 									onclick="bysideWebcare_triggerevent( 15672 )"
 								>
 									<p>Falar com especialista</p>
@@ -1259,7 +1243,6 @@
 							<div class="btn-container">
 								<button
 									id="plug-in-condominios"
-									class="ligue-me-btn"
 									onclick="bysideWebcare_triggerevent( 15672 )"
 								>
 									<p>Falar com especialista</p>
@@ -1268,7 +1251,10 @@
 						</div>
 					</div>
 					<div class="block-buttons">
-						<button class="button m1-Alt-2-bt mx-auto mt-2 modalBt">
+						<button
+							id="modal-comparar-caracteristicas"
+							class="button m1-Alt-2-bt mx-auto mt-2 modalBt"
+						>
 							<span>Comparar Características</span>
 						</button>
 					</div>
@@ -1414,7 +1400,7 @@
 						<button
 							id="liguem-me-adesao"
 							onclick="bysideWebcare_triggerevent( 15672 )"
-							class="button m1-Alt-bt ligue-me-btn"
+							class="button m1-Alt-bt cta-button-ligueme"
 						>
 							<span>Liguem-me</span>
 						</button>
@@ -1448,16 +1434,27 @@
 							22kW face a uma tomada convencional de 2,3kW
 							<br />
 							<br />
-							(3) O Cliente que proceda à aquisição de uma solução Premium
-							Charger EDP, e caso exista rede de comunicações no local de
-							instalação, pode aderir ao serviço EDP Charge, que permite
-							disponibilizar ao Cliente informação sobre o consumo de energia
-							elétrica associado ao Posto de Carregamento. O serviço EDP Charge
-							não tem custos associados para o Cliente durante os primeiros 24
-							meses de vigência do contrato. A partir do primeiro dia do 25º mês
-							de vigência do contrato, é devido pelo Cliente à EDP Comercial o
-							preço mensal de 3,99€ (IVA incluído) em contrapartida pelo Serviço
-							EDP Charge
+							(3) Oferta disponível para clientes da EDP Comercial com soluções
+							de carregamento EDP. Os descontos são válidos durante 24 meses e
+							incidem sobre o valor total da fatura (potência contratada e
+							energia consumida), são calculados face aos preços de referência
+							da oferta de preço fixo da EDP Comercial (não aplicável às ofertas
+							de preço indexado), excluindo taxas e impostos. Disponível para
+							potências contratadas de 3,45 a 20,7 kVa com opção bi-horária e de
+							27,6 a 41,4 kVA com opção tri-horária na eletricidade. Os
+							descontos pressupõem a adesão com débito direto e à fatura
+							eletróncia (mensal ou bimestral) e serão cancelados em caso de
+							alteração para outro tipo de faturação ou para outro meio de
+							pagamento disponível. Não dispensa a consulta das condições gerais
+							do contrato de fornecimento de energia EDP Comercial. Consulte
+							<a
+								href="https://www.edp.pt/particulares/apoio-cliente/perguntas-frequentes/pt/solucoes-sustentaveis/mobilidade-eletrica/como-funciona-o-tarifario-do-plano-de-mobilidade-eletrica-verde/faq-18924/"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="text-edp-purple"
+								>aqui</a
+							>
+							as fichas normalizadas.
 							<br />
 							<br />
 							(4) Os preços apresentados são válidos para clientes de energia
@@ -1468,9 +1465,9 @@
 							<br />
 							O preço mais baixo praticado nos últimos 30 dias para uma solução
 							equivalente foi de 349€ na Plug-in EDP; 375€ na Plug-in
-							Condomínios EDP; 949€ no Light Charger EDP; 949€ no Standard
-							Charger EDP; 1199€ no Smart Charger EDP e 1549€ no Premium Charger
-							EDP (à data de agosto 2024).
+							Condomínios EDP; 949€ no Light Charger EDP; 1049€ no Standard
+							Charger EDP; 1349€ no Smart Charger EDP e 1549€ no Premium Charger
+							EDP (à data de setembro 2024).
 							<!--(4) O desconto promocional de 30% no tarifário de energia elétrica válido até 31 de outubro e é exclusivo para clientes particulares que sejam titulares de um contrato de fornecimento de energia com a EDP Comercial num local de consumo. Para a atribuição do referido desconto, o contrato de fornecimento de energia e o contrato de fornecimento de energia elétrica para a mobilidade elétrica deverão ter o mesmo titular. Desconto não aplicável ao tarifário do Operador de Ponto de Carregamento (OPC), à tarifa da Entidade Gestora de Mobilidade Elétrica e a outros tarifários de contratos de fornecimento de energia e/ou serviços de que o cliente possa ser titular. Pressupõe a adesão à fatura eletrónica para todos os clientes e a adesão ao débito direto para clientes que não tenham um contrato de fornecimento de energia com a EDP Comercial ou que tenham contrato de fornecimento de energia com a modalidade de pagamento Conta Certa. Não dispensa a consulta das condições gerais e particulares do contrato de fornecimento de energia elétrica para a mobilidade elétrica no carregamento público, disponíveis <a href="https://www.edp.pt/particulares/apoio-cliente/perguntas-frequentes/pt/solucoes-sustentaveis/mobilidade-eletrica/solucoes-de-carregamento-edp-carregar-fora-de-casa/faq-19112/" target="_blank" class="m2_color">aqui</a>-->
 							<br />
 							<br />
@@ -1533,7 +1530,9 @@
 
 		<section id="modalComparar" class="modal hidden">
 			<div class="wrapper">
-				<button class="modal_close"><i class="icon-Bra-071"></i></button>
+				<button id="close-modal-comparar-caracteristicas" class="modal_close">
+					<i class="icon-Bra-071"></i>
+				</button>
 				<div class="modalSlider__slider">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
@@ -2040,8 +2039,33 @@
 			</div>
 		</section>
 
+		<script>
+			(function () {
+				const verify_el = setInterval(() => {
+					const el = document.querySelector(
+						'#webcareslotcontainer_27480 .webcareslot1 div[class^="byside_windowBySideData"]'
+					);
+					if (el) {
+						clearInterval(verify_el);
+						const id = el.className.match(/byside_windowBySideData_(\w+)/);
+
+						$(`.BySideData_${id[1]}_bt_close`).on("click", function () {
+							window.dataLayer.push({
+								event: "gaclick",
+								dlVersion: "GA4",
+								action: "click_close",
+								formModal: "modalPedirContacto",
+								interactionName: "close form ligue-me",
+								interactionLocation: "beneficios-em-parceiros",
+							});
+						});
+					}
+				}, 100);
+			})();
+		</script>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-		<script src="/media/uktbeirz/scripts.js"></script>
+		<script src="/media/5mfnzwtl/scripts.js"></script>
 	</body>
 </html>

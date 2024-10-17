@@ -21,6 +21,14 @@
 		@apply bg-transparent border-2 border-white py-3 px-4 w-full max-w-[206px] text-white text-lg font-semibold hover:shadow-[inset_0px_0px_0px_1px_#fff] transition-colors duration-150 text-center;
 	}
 
+	.button-edp-ghost.green {
+		@apply border-edp-green  text-edp-dark-blue  hover:shadow-[inset_0px_0px_0px_1px_#26FE53];
+	}
+
+	.button-edp-ghost.dark {
+		@apply border-edp-dark-blue text-edp-dark-blue  hover:shadow-[inset_0px_0px_0px_1px_#212E3E];
+	}
+
 	.button-edp-black {
 		@apply bg-edp-dark-blue border-2 border-edp-dark-blue py-3 px-4 w-full max-w-[206px] text-edp-green text-lg font-semibold hover:bg-edp-dark-blue-hover transition-colors duration-150 text-center;
 	}
