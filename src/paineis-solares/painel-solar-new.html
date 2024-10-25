@@ -2664,21 +2664,17 @@
 
 			(function () {
 				const verify_el = setInterval(() => {
-					const el = document.querySelector(
-						'#webcareslotcontainer_27478 .webcareslot1 div[class^="byside_windowBySideData"]'
-					);
+					const el = document.querySelector('[id$="action-cancel"]');
 					if (el) {
 						clearInterval(verify_el);
-						const id = el.className.match(/byside_windowBySideData_(\w+)/);
-
-						$(`.BySideData_${id[1]}_bt_close`).on("click", function () {
+						$('[id$="action-cancel"]').on("click", function () {
 							window.dataLayer.push({
 								event: "gaclick",
 								dlVersion: "GA4",
 								action: "click_close",
 								formModal: "modalPedirContacto",
 								interactionName: "close form ligue-me",
-								interactionLocation: "beneficios-em-parceiros",
+								interactionLocation: "popup-pedir-contacto",
 							});
 						});
 					}

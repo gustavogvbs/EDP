@@ -5,13 +5,142 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 						<span> Resultado da simulação </span> Energia Solar EDP
 					</p>
 					<h2 class="title-hero__test">
-						Saiba como vai
-						poupar com os Painéis Solares da EDP
+						Pode poupar até <br />
+						<span>690€</span> /ano*
 					</h2>
 					<div class="container-info-hero__test">
 						<div class="wrapper-info-hero__test">
 							<p class="text-info__test">Painéis</p>
 							<p class="text-info-green__test" id="paineis-result">-</p>
+							<div class="image-info__test">
+								<svg
+									width="54"
+									height="47"
+									viewBox="0 0 54 47"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M29 17.5C29 23.8513 23.8513 29 17.5 29C11.1487 29 6 23.8513 6 17.5C6 11.1487 11.1487 6 17.5 6C23.8513 6 29 11.1487 29 17.5Z"
+										stroke="#28FF52"
+										stroke-width="2"
+									/>
+									<line
+										x1="1.84827"
+										y1="20.3913"
+										x2="5.77783"
+										y2="19.6439"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="1.9436"
+										y1="14.1683"
+										x2="5.8946"
+										y2="14.7925"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="4.18645"
+										y1="8.52213"
+										x2="7.51549"
+										y2="10.7397"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="8.40948"
+										y1="4.41557"
+										x2="10.9973"
+										y2="7.46567"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="14.2015"
+										y1="1.74589"
+										x2="15.1128"
+										y2="5.64071"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="20.1257"
+										y1="1.65027"
+										x2="19.3168"
+										y2="5.56762"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="25.5054"
+										y1="3.75593"
+										x2="23.4142"
+										y2="7.16572"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="30.3892"
+										y1="7.41214"
+										x2="27.4117"
+										y2="10.0831"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="33.0218"
+										y1="12.2947"
+										x2="29.2944"
+										y2="13.746"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="4.19177"
+										y1="26.1517"
+										x2="7.44394"
+										y2="23.8228"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<line
+										x1="8.4408"
+										y1="30.7491"
+										x2="10.8367"
+										y2="27.5461"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+									/>
+									<path
+										d="M14.75 33L18 20H29.25M14.75 33L11.5 46H23M14.75 33H49M49 33L46 46H34.5M49 33L52 20H40.5M40.5 20L34.5 46M40.5 20H29.25M34.5 46H23M23 46L29.25 20"
+										stroke="#28FF52"
+										stroke-width="2"
+									/>
+								</svg>
+							</div>
+						</div>
+
+						<div class="wrapper-info-hero__test">
+							<p class="text-info__test">Redução consumo da rede</p>
+							<p
+								class="text-info-green__test"
+								id="reducao-consumo-da-rede-result"
+							>
+								-
+							</p>
 							<div class="image-info__test">
 								<svg
 									width="22"
@@ -27,61 +156,61 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 								</svg>
 							</div>
 						</div>
-						
-						<div class="wrapper-info-hero__test">
-							<p class="text-info__test">Redução consumo da rede</p>
-							<p class="text-info-green__test" id="reducao-consumo-da-rede-result">-</p>
-							<div class="image-info__test">
-								<svg
-									width="15"
-									height="22"
-									viewBox="0 0 15 22"
-									fill="none"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M12.9492 7.80664C13.1055 7.80664 13.2422 7.86523 13.3594 7.98242C13.4766 8.09961 13.5352 8.23633 13.5352 8.39258C13.5352 8.54883 13.4766 8.68555 13.3594 8.80273C13.2422 8.91992 13.1055 8.97852 12.9492 8.97852C12.7734 8.97852 12.627 8.91992 12.5098 8.80273C12.3926 8.68555 12.334 8.54883 12.334 8.39258C12.334 8.23633 12.3926 8.09961 12.5098 7.98242C12.627 7.86523 12.7734 7.80664 12.9492 7.80664ZM14.7363 8.39258C14.7363 7.9043 14.5605 7.48438 14.209 7.13281C13.8574 6.78125 13.4375 6.60547 12.9492 6.60547C12.4414 6.60547 12.0117 6.78125 11.6602 7.13281C11.3086 7.48438 11.1328 7.9043 11.1328 8.39258C11.1328 8.7832 11.25 9.12988 11.4844 9.43262C11.7188 9.73535 12.002 9.95508 12.334 10.0918V17.3281C12.334 18.207 12.0264 18.9541 11.4111 19.5693C10.7959 20.1846 10.0488 20.4922 9.16992 20.4922C8.31055 20.4922 7.56836 20.1846 6.94336 19.5693C6.31836 18.9541 6.00586 18.207 6.00586 17.3281V14.0762H8.23242L10.8105 0.804688H7.73438V2.00586H9.3457L7.23633 12.875H6.00586V10.6191H4.80469V12.875H3.60352L1.46484 2.00586H3.10547V0.804688H0L2.60742 14.0762H4.80469V17.3281C4.80469 18.5391 5.23438 19.5693 6.09375 20.4189C6.95312 21.2686 7.97852 21.6934 9.16992 21.6934C10.3809 21.6934 11.4111 21.2686 12.2607 20.4189C13.1104 19.5693 13.5352 18.5391 13.5352 17.3281V10.0918C13.8867 9.95508 14.1748 9.73535 14.3994 9.43262C14.624 9.12988 14.7363 8.7832 14.7363 8.39258Z"
-										fill="#28FF52"
-									></path>
-								</svg>
-							</div>
-						</div>
 						<div class="wrapper-info-hero__test">
 							<p class="text-info__test">Poupança Anual Estimada</p>
 							<p class="text-info-green__test" id="poupanca-anual-result">-</p>
 							<div class="image-info__test">
 								<svg
-									width="12"
-									height="24"
-									viewBox="0 0 12 24"
+									width="64"
+									height="61"
+									viewBox="0 0 64 61"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
 								>
 									<path
-										d="M7.5 9.31641L7.17773 9.49219V21.0352C7.17773 21.4844 7.0166 21.8701 6.69434 22.1924C6.37207 22.5146 5.98633 22.6758 5.53711 22.6758C5.06836 22.6758 4.67773 22.5146 4.36523 22.1924C4.05273 21.8701 3.89648 21.4844 3.89648 21.0352V9.49219L3.54492 9.31641C2.82227 8.94531 2.25098 8.41309 1.83105 7.71973C1.41113 7.02637 1.20117 6.2793 1.20117 5.47852C1.20117 4.75586 1.3623 4.08203 1.68457 3.45703C2.00684 2.83203 2.45117 2.32422 3.01758 1.93359V4.33594L5.53711 5.77148L8.02734 4.33594V1.93359C8.59375 2.32422 9.04297 2.83203 9.375 3.45703C9.70703 4.08203 9.87305 4.75586 9.87305 5.47852C9.87305 6.2793 9.6582 7.02637 9.22852 7.71973C8.79883 8.41309 8.22266 8.94531 7.5 9.31641ZM7.64648 0.351562L6.82617 0V3.63281L5.53711 4.39453L4.21875 3.63281V0L3.39844 0.351562C2.36328 0.78125 1.53809 1.45996 0.922852 2.3877C0.307617 3.31543 0 4.3457 0 5.47852C0 6.45508 0.239258 7.36328 0.717773 8.20312C1.19629 9.04297 1.85547 9.7168 2.69531 10.2246V21.0352C2.69531 21.8164 2.96875 22.4854 3.51562 23.042C4.0625 23.5986 4.73633 23.877 5.53711 23.877C6.31836 23.877 6.9873 23.5986 7.54395 23.042C8.10059 22.4854 8.37891 21.8164 8.37891 21.0352V10.2246C9.19922 9.7168 9.85352 9.04297 10.3418 8.20312C10.8301 7.36328 11.0742 6.45508 11.0742 5.47852C11.0742 4.3457 10.7617 3.31543 10.1367 2.3877C9.51172 1.45996 8.68164 0.78125 7.64648 0.351562ZM5.12695 19.9805L4.7168 20.6836L5.12695 21.3574H5.91797L6.32812 20.6836L5.91797 19.9805H5.12695Z"
-										fill="#28FF52"
-									></path>
+										d="M4.56824 30.5C9.56445 17 21.0645 14 36.5682 14C38.9623 10.3955 40.6448 9.54105 44.0551 8.50398C44.0615 8.50203 44.0682 8.50678 44.0682 8.51349V12.5M4.56824 30.5C3.37231 39.9242 4.87336 43.9911 10.5682 49.5L6.56824 53.5L13.0682 60L18.5682 55C27.3892 57.698 33.1505 57.8648 42.5682 55L47.0682 60L53.5682 54L50.0682 50.5C54.3433 47.301 55.8971 44.5624 57.5682 40H62.0682V31.5H57.5682C54.5496 23.3981 51.2556 20.5962 44.0682 17V12.5M4.56824 30.5C-0.433917 28.5 0.564453 23.5 3.06502 21M44.0682 12.5C46.066 10.8516 47.6935 10.6402 51.0667 10.9998C51.0675 10.9999 51.0679 11.0007 51.0675 11.0013L46.9024 18.5M17.0645 29.5C23.1955 24.0399 27.0914 22.7481 35.0644 22.5"
+										stroke="#28FF52"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+									<circle
+										cx="20.0645"
+										cy="13"
+										r="12"
+										stroke="#28FF52"
+										stroke-width="2"
+									/>
 								</svg>
 							</div>
 						</div>
 					</div>
-          <div class="wrapper-buttons__test">
+
+					<div class="checklist__test">
+						<div class="iten-checklist__test">
+							<i class="item-icon icon icon-bop-072"></i>
+							<span>Sem Juros </span>
+						</div>
+						<div class="iten-checklist__test">
+							<i class="item-icon icon icon-bop-072"></i>
+							<span>Sem entrada inicial </span>
+						</div>
+						<div class="iten-checklist__test">
+							<i class="item-icon icon icon-bop-072"></i>
+							<span>Mensalidade mais baixa do mercado </span>
+						</div>
+					</div>
+
+					<div class="wrapper-buttons__test">
 						<edp-button-type
 							type="cta01"
-							text="Pedir Proposta"
+							text="Quero Aderir"
 							href="#"
 							location="gta-28237-2"
 							onclick="pedirProposta()"
 							class="sc-edp-button-type-h sc-edp-button-type-s hydrated"
 						></edp-button-type>
-						<edp-button-type
-							type="cta02"
-							text="Personalizar proposta"
-							href="#"
-							location="gta-28237-1"
-							onclick="scrollToProposta()"
-							class="sc-edp-button-type-h sc-edp-button-type-s hydrated"
-						></edp-button-type>
+						<p class="text-info__test">Comece a poupar ainda esse ano</p>
 					</div>
 				</div>
 				<picture class="wrappre-image__test">
@@ -90,7 +219,11 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 							<span>Resultado da simulação</span> <br />
 							Energia Solar EDP
 						</h3>
-						<img width="127px" src="/media/qerjlxq0/edp-energiasolar-painelbateria.webp" alt="" />
+						<img
+							width="127px"
+							src="/media/qerjlxq0/edp-energiasolar-painelbateria.webp"
+							alt=""
+						/>
 					</div>
 					<div class="card-result card-one">
 						<div style="min-width: 64px">
@@ -101,8 +234,7 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 						</div>
 						<div>
 							<h3>Poupança Anual Estimada</h3>
-							<p id="poupanca-anual-card">
-							</p>
+							<p id="poupanca-anual-card"></p>
 						</div>
 					</div>
 					<div class="card-result card-two">
@@ -117,6 +249,7 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 							<p id="rcdr-card"></p>
 						</div>
 					</div>
+
 					<div class="wrapper-mobile-button__test">
 						<edp-button-type
 							type="cta01"
@@ -126,16 +259,17 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 							onclick="pedirProposta()"
 							class="sc-edp-button-type-h sc-edp-button-type-s hydrated"
 						></edp-button-type>
-						<edp-button-type
-							type="cta02"
-							text="Personalizar proposta"
-							href="#"
-							location="gta-28237-1"
-							onclick="scrollToProposta()"
-							class="sc-edp-button-type-h sc-edp-button-type-s hydrated"
-						></edp-button-type>
+						<p class="text-info__test">Comece a poupar ainda esse ano</p>
 					</div>
-					<img class="image-desktop__test" src="/media/qerjlxq0/edp-energiasolar-painelbateria.webp" alt="Painel solar com uma bateria solar enconstada" width="200" height="200" loading="lazy" class="sc-edp-image">
+					<img
+						class="image-desktop__test"
+						src="/media/qerjlxq0/edp-energiasolar-painelbateria.webp"
+						alt="Painel solar com uma bateria solar enconstada"
+						width="200"
+						height="200"
+						loading="lazy"
+						class="sc-edp-image"
+					/>
 				</picture>
 			</div>
 		</div>`;
@@ -164,17 +298,17 @@ setInterval(() => {
 		});
 		$(".edp-modal__container.sc-edp-modal").css({ "padding-top": 0 });
 		setTimeout(() => {
-			const values = $(
-				".result-card__front.sc-edp-simulator-solar-old-result-card.result-card__height .result-card__list-number.sc-edp-simulator-solar-old-result-card"
-			);
-			const anual = $(
-				".result-card__front.sc-edp-simulator-solar-old-result-card.result-card__height .result-card__savings-interval.sc-edp-simulator-solar-old-result-card"
-			)
+			const values = $("edp-simulator-solar-result-card")
 				.first()
+				.find(".list .list-number");
+
+			const anual = $("edp-simulator-solar-result-card")
+				.first()
+				.find(".savings-interval")
 				.text();
 
-			const paineis = values[0].innerText;
-			const rcdr = values[2].innerText;
+			const paineis = $(values[0]).text();
+			const rcdr = $(values[2]).text();
 			$("#poupanca-anual-card").text("de ".concat(anual));
 			$("#rcdr-card").text(rcdr);
 			$("#poupanca-anual-result").text("Até ".concat(anual.split(" ")[2]));
@@ -201,28 +335,30 @@ setInterval(() => {
 		verify = false;
 	}
 }, 400);
-const scrollToProposta = () => {
-	let posicaoDestino = $(
-		`.theme_marineBlue__electricGreen-std.hero-result__test`
-	).height();
-	posicaoDestino += $(
-		".tabbed-container.sc-edp-simulator-solar-step-results"
-	).height();
-	posicaoDestino += 40;
 
-	console.log(posicaoDestino);
-	$("html, edp-modal").stop().animate(
+const scrollToProposta = () => {
+	$(
+		"edp-modal.sc-edp-simulator-solar.sc-edp-modal-h.sc-edp-modal-s.edp-modal.hydrated.edp-modal--open.edp-modal--sticky"
+	).animate(
 		{
-			scrollTop: posicaoDestino,
+			scrollTop: $("edp-stepnav-field").eq(4).offset().top - 20, // Ajusta para a posição da seção
 		},
-		500
+		1000
 	);
 };
 
 const pedirProposta = () => {
-	$("#SolarQuality2").prop("checked", true);
-	$("#SolarQuality2").click();
-	$(
-		".btn-edp.btn-edp--cta01.m-01-c.right.btn-edp--sticky.sc-edp-button-type.m-03-bc.m-03-bg"
-	).click();
+	$("edp-simulator-solar-result-card")
+		.first()
+		.find("edp-button-type[title='selecionar'] .btn-edp.btn-edp--wrapper")
+		.click();
+	$("edp-button-type[title='pedir-contacto']").click();
+
+	setTimeout(() => {
+		$("#SolarQuality2").prop("checked", true);
+		$("#SolarQuality2").click();
+		$(
+			".btn-edp.btn-edp--cta01.m-01-c.right.btn-edp--sticky.sc-edp-button-type.m-03-bc.m-03-bg"
+		).click();
+	}, 200);
 };

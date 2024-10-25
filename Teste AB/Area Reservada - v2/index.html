@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			@keyframes start-popup {
+				0% {
+					transform: translateY(110%);
+				}
+				65% {
+					transform: translateY(110%);
+				}
+				100% {
+					transform: translateY(0%);
+				}
+			}
+
+			.popup_container__test {
+				background-color: #6d32ff;
+				color: #fff;
+				padding: 18px 12px;
+				width: 324px;
+				border-radius: 12px;
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				animation-name: start-popup;
+				animation-duration: 2s;
+				animation-timing-function: ease-in-out;
+				transition: 500ms ease-in-out transform;
+			}
+
+			.popup_container__test.hidden {
+				transform: translateY(110%);
+			}
+
+			.header__popup {
+				margin-bottom: 24px;
+				display: flex;
+				justify-content: space-between;
+				padding: 6px;
+			}
+
+			.button_close__popup {
+				background-color: transparent;
+				border: none;
+				margin-left: 8px;
+				color: #fff;
+				cursor: pointer;
+			}
+
+			.text_header__popup {
+				font-size: 20px;
+				line-height: 24px;
+				font-weight: bold;
+			}
+
+			.content__popup {
+				background-color: #fff;
+				border-radius: 12px;
+				padding: 18px;
+			}
+
+			.btn_primary__popup {
+				background-color: #26fe53;
+				color: #444444;
+				padding: 18px 21px;
+				border: none;
+				font-size: 14px;
+				line-height: 18px;
+				font-weight: bold;
+				cursor: pointer;
+			}
+
+			.text_content__popup {
+				color: #444444;
+				font-size: 20px;
+				line-height: 24px;
+				font-weight: 400;
+				max-width: 240px;
+				margin-bottom: 24px;
+			}
+
+			.info_content__popup {
+				color: #6d32ff;
+				font-weight: bold;
+				font-size: 14px;
+				line-height: 18px;
+				margin-bottom: 14px;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width: 630px">
+			<div class="popup_container__test">
+				<div class="header__popup">
+					<span class="text_header__popup">Plantão Solar</span>
+					<button class="button_close__popup">
+						<svg
+							width="17"
+							height="17"
+							viewBox="0 0 17 17"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path d="M16 1L1 16" stroke="currentColor" />
+							<path d="M16 1L1 16" stroke="currentColor" />
+							<path d="M0.999999 0.999999L16 16" stroke="currentColor" />
+							<path d="M0.999999 0.999999L16 16" stroke="currentColor" />
+						</svg>
+					</button>
+				</div>
+				<div class="content__popup">
+					<span class="info_content__popup">Temos um pré-projeto</span>
+					<h3 class="text_content__popup">
+						Sua empresa pode economizar até 30% na tarifa de energia
+					</h3>
+
+					<button class="btn_primary__popup">Receba sua simulação agora</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
