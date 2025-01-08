@@ -106,6 +106,7 @@
 				padding: 32px 0;
 				display: flex;
 				gap: 16px;
+				align-items: center;
 			}
 
 			.checklist__test {
@@ -327,7 +328,7 @@
 
 					<div class="wrapper-buttons__test">
 						<edp-button-type
-							type="cta01"
+							type="cta02"
 							text="Quero Aderir"
 							href="#"
 							location="gta-28237-2"
@@ -378,8 +379,12 @@
 						<edp-button-type
 							type="cta01"
 							text="Pedir Proposta"
-							href="#"
-							location="gta-28237-2"
+							onclick="pedirProposta()"
+							class="sc-edp-button-type-h sc-edp-button-type-s hydrated"
+						></edp-button-type>
+						<edp-button-type
+							type="cta02"
+							text="Personalizar solução"
 							onclick="pedirProposta()"
 							class="sc-edp-button-type-h sc-edp-button-type-s hydrated"
 						></edp-button-type>
@@ -399,6 +404,126 @@
 		</div>
 	</body>
 	<style>
+		.hero-result__test::before {
+			content: "";
+			background-color: #192f41;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 0;
+			width: 100vw;
+			height: 100%;
+		}
+		.hero-result__test {
+			background-color: #192f41;
+			width: 100%;
+			padding: 72px 0;
+		}
+
+		.wrapper-hero-result__test {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 48px;
+			justify-content: space-between;
+			width: 100%;
+			max-width: 1400px;
+			margin: auto;
+		}
+
+		.wrapper-content__test {
+			max-width: 576px;
+		}
+
+		.wrappre-image__test {
+			max-width: 672px;
+			margin-left: auto;
+			display: flex;
+			align-items: center;
+			position: relative;
+		}
+
+		.text-hero__test {
+			font-size: 21px;
+			line-height: 32px;
+			font-weight: 600;
+			color: #fff;
+		}
+
+		.title-hero__test {
+			font-size: 24px;
+			line-height: 32px;
+			font-weight: normal;
+			margin: 56px 0;
+			color: #fff;
+		}
+
+		.text-hero__test span,
+		.title-hero__test span {
+			color: #26fe53;
+		}
+		.title-hero__test span {
+			font-size: 72px;
+			line-height: 72px;
+		}
+
+		.container-info-hero__test {
+			display: flex;
+			flex-direction: column;
+			border-bottom: 2px solid #fff;
+			max-width: 440px;
+			width: 90%;
+		}
+
+		.wrapper-info-hero__test {
+			display: grid;
+			gap: 8px;
+			grid-template-columns: 1fr 70px 24px;
+			align-items: center;
+			color: #fff;
+			padding: 8px 0;
+			border-top: 2px solid #fff;
+		}
+
+		.text-info__test,
+		.text-info-green__test {
+			font-size: 14px;
+			line-height: 21px;
+			font-weight: 500;
+			color: #fff;
+		}
+
+		.text-info-green__test {
+			color: #26fe53;
+		}
+
+		.image-info__test {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 24px;
+			width: 24px;
+		}
+
+		.wrapper-buttons__test {
+			padding: 32px 0;
+			display: flex;
+			gap: 16px;
+			align-items: center;
+		}
+
+		.checklist__test {
+			font-size: 24px;
+			line-height: 32px;
+			color: #fff;
+			margin-top: 32px;
+		}
+
+		.iten-checklist__test {
+			display: inline-flex;
+			gap: 12px;
+			margin-right: 16px;
+		}
+
 		.card-result {
 			background-color: #fff;
 			display: flex;
@@ -407,25 +532,22 @@
 			width: 260px;
 			position: absolute;
 			color: #192f41;
+			z-index: 1;
 		}
-
 		.card-one {
-			transform: translateY(70%) translateX(-40%);
+			transform: translateY(70%);
 			left: 0;
 		}
-
 		.card-two {
 			right: 0;
 			top: 0;
 			transform: translateY(30%);
 		}
-
 		.card-result h3 {
 			font-size: 18px;
 			font-weight: 400;
 			margin-bottom: 8px;
 		}
-
 		#poupanca-anual-card {
 			font-size: 32px;
 			font-weight: bold;
@@ -434,77 +556,73 @@
 			font-size: 72px;
 			font-weight: bold;
 		}
-
 		.card-image-mobile__test {
 			display: none;
-			gap: 16px;
 			align-items: center;
 			justify-content: space-between;
+			margin-bottom: 20px;
 		}
-
 		.card-image-mobile__test h3 {
 			font-size: 18px;
 			line-height: 24px;
 			font-weight: 600;
 			color: #fff;
 		}
-
 		.card-image-mobile__test h3 span {
 			color: #26fe53;
 		}
-
+		.wrapper-mobile-button__test {
+			display: none;
+		}
+		.card-image-mobile__test img {
+			width: 120px;
+		}
 		@media (max-width: 1080px) {
 			.card-result {
 				position: relative;
 				transform: none !important;
 			}
-
 			.wrappre-image__test {
 				flex-direction: column;
 				gap: 8px;
 			}
-
 			.image-desktop__test {
 				display: none;
 			}
-
 			.card-image-mobile__test {
 				display: flex;
 			}
 		}
-
 		@media (max-width: 756px) {
 			.wrapper-hero-result__test {
 				grid-template-columns: 1fr;
 				gap: 20px;
 			}
-
+			.wrapper-content__test {
+				display: none;
+			}
 			.wrappre-image__test {
 				max-width: auto;
 				margin-left: 0;
 			}
-
 			.wrapper-mobile-button__test {
 				display: flex;
+				gap: 16px;
+				margin-top: 20px;
 			}
 		}
-
-		.wrapper-mobile-button__test {
-			display: none;
-		}
-
-		.card-image-mobile__test img {
-			width: 127px;
-		}
-
 		@media (max-width: 564px) {
 			.wrapper-mobile-button__test {
 				flex-direction: column;
+				gap: 8px;
+				width: 90%;
 			}
-
 			.wrapper-mobile-button__test button {
 				width: 100%;
 			}
+		}
+		.theme_marineBlue__electricGreen-std.hero-result__test > i {
+			color: #192f41 !important;
 		}
 	</style>
 </html>

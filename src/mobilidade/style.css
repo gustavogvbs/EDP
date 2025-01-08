@@ -1,0 +1,13 @@
+.modal .mobEletricaCompare__block:nth-of-type(2) {
+	height: 54rem !important;
+}
+
+.block-chargers
+	.block-wrapper
+	.block-body
+	.block-row-fluid
+	.prod-block
+	.prod-wrapper
+	.prod-specs {
+	height: 400px !important;
+}

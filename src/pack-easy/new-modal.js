@@ -67,7 +67,7 @@ document.querySelectorAll(".cta-button-simular").forEach((item) => {
     </div>
     `;
 		document.querySelector("#iframe-modal iframe").remove();
-		const wrapper = document.querySelector(".shadow-xl.w-full");
+		const wrapper = document.querySelectorAll(".shadow-xl.w-full")[1];
 		wrapper.classList.remove("bg-white");
 		wrapper.classList.add("bg-[#f1f4f4]");
 		const close_modal = document.getElementById("close-iframe");

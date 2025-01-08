@@ -184,6 +184,18 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 								</svg>
 							</div>
 						</div>
+						<div class="wrapper-info-hero__test">
+							<p class="text-info__test">Mensalidade</p>
+							<p class="text-info-green__test" id="mensalidade-list">-</p>
+							<div class="image-info__test">
+								<svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M41.1308 29.7538C37.9256 34.7156 32.3464 38 26 38C16.0589 38 8 29.9411 8 20C8 10.0589 16.0589 2 26 2C32.5779 2 38.3316 5.52835 41.4719 10.7957L43.0355 9.51644C39.5139 3.80611 33.2014 0 26 0C14.9543 0 6 8.9543 6 20C6 31.0457 14.9543 40 26 40C33.0405 40 39.2313 36.3621 42.7952 30.8635L41.1308 29.7538Z" fill="#28FF52"/>
+<line x1="0.5" y1="17.5" x2="31" y2="17.5" stroke="#28FF52" stroke-width="2"/>
+<line x1="0.5" y1="22.5" x2="31" y2="22.5" stroke="#28FF52" stroke-width="2"/>
+</svg>
+
+							</div>
+						</div>
 					</div>
 
 					<div class="checklist__test">
@@ -207,7 +219,7 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 							text="Quero Aderir"
 							href="#"
 							location="gta-28237-2"
-							onclick="pedirProposta()"
+							onclick="queroAderir()"
 							class="sc-edp-button-type-h sc-edp-button-type-s hydrated"
 						></edp-button-type>
 						<p class="text-info__test">Comece a poupar ainda esse ano</p>
@@ -229,7 +241,7 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 						<div style="min-width: 64px">
 							<i
 								style="font-size: 64px"
-								class="icon theme-icon--alt03 icon-bra-117 sc-edp-info-icons-slider-item"
+								class="icon add-01-c icon-bra-117 sc-edp-info-icons-slider-item"
 							></i>
 						</div>
 						<div>
@@ -241,7 +253,7 @@ const htmlHero = `<div class="theme_marineBlue__electricGreen-std hero-result__t
 						<div style="min-width: 64px">
 							<i
 								style="font-size: 64px"
-								class="icon theme-icon--alt03 icon-bra-007 sc-edp-info-icons-slider-item"
+								class="icon add-01-c icon-bra-007 sc-edp-info-icons-slider-item"
 							></i>
 						</div>
 						<div>
@@ -309,11 +321,14 @@ setInterval(() => {
 
 			const paineis = $(values[0]).text();
 			const rcdr = $(values[2]).text();
+			const mensalidade = $(values[3]).text();
 			$("#poupanca-anual-card").text("de ".concat(anual));
 			$("#rcdr-card").text(rcdr);
+			$("#mensalidade-list").text(mensalidade);
 			$("#poupanca-anual-result").text("Até ".concat(anual.split(" ")[2]));
 			$("#reducao-consumo-da-rede-result").text(rcdr);
 			$("#paineis-result").text(paineis);
+			$("h2.title-hero__test span").text(anual.split(" ")[2]);
 		}, 300);
 		$(".hero-result__test .btn-edp.btn-edp--cta02.right.sc-edp-button-type").on(
 			"click",
@@ -347,7 +362,7 @@ const scrollToProposta = () => {
 	);
 };
 
-const pedirProposta = () => {
+const queroAderir = () => {
 	$("edp-simulator-solar-result-card")
 		.first()
 		.find("edp-button-type[title='selecionar'] .btn-edp.btn-edp--wrapper")

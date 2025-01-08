@@ -1,8 +1,8 @@
 const content_html = `
 			<div class="popup_container__test" id="popup-energia-solar">
 				<div class="header__popup">
-					<span class="text_header__popup">Plantão Solar</span>
-					<button class="button_close__popup" id="close-popup">
+					<span class="text_header__popup">Oferta Exclusica</span>
+					<button class="button_close__popup">
 						<svg
 							width="17"
 							height="17"
@@ -18,12 +18,12 @@ const content_html = `
 					</button>
 				</div>
 				<div class="content__popup">
-					<span class="info_content__popup">Temos um pré-projeto</span>
+					<span class="info_content__popup">Energia Solar</span>
 					<h3 class="text_content__popup">
-						Sua empresa pode economizar até 30% na tarifa de energia
+						A sua empresa pode poupar até <span id="valor-pupado"></span>/ano ao
+						instalar uma solução solar. Fale com um especialista.
 					</h3>
-
-					<button class="btn_primary__popup" id="next-btn-popup">Receba sua simulação agora</button>
+					<button class="btn_primary__popup">Pedir Proposta</button>
 				</div>
 			</div>`;
 
@@ -43,6 +43,12 @@ const verify = setInterval(() => {
 					clearInterval(verify);
 
 					$("body").append(content_html);
+					const description = $(element).find(".description").text();
+					const prices = description.match(/\d+(,\d+)?€/g);
+
+					console.log(prices, description, $(element).find(".description"));
+
+					$("#valor-pupado").text(prices[1]);
 
 					const functionDefault = document
 						.querySelectorAll(".opportunities-item.ng-star-inserted")[2]
